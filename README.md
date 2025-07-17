@@ -53,7 +53,7 @@ You can drag and drop images into your markdown editor or upload via the GitHub 
 <!--
 Add your live deployment link here (e.g., Vercel, Netlify, your own domain)
 -->
-[View live app](https://your-demo-link.com)
+[View live app](https://fuel-dashboard-frontend.vercel.app/)
 
 ---
 
