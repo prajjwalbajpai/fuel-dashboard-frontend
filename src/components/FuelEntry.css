@@ -1,0 +1,71 @@
+.fuel-entry {
+  background: white;
+  border-radius: 15px;
+  padding: 5px 25px 20px 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border: 1px solid #e9ecef;
+}
+
+.fuel-entry h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.fuel-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #495057;
+  font-size: 0.9rem;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #28a745;
+}
+
+.fuel-submit-btn {
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.fuel-submit-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(40,167,69,0.3);
+}
+
+.fuel-submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
